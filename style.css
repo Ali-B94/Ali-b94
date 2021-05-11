@@ -1,7 +1,7 @@
 
 
 body {
-    background-color: lightgray;
+    background-color: whitesmoke;
     font-family: 'Raleway', sans-serif;
     
   }
@@ -27,7 +27,7 @@ body {
   }
   
   #banner {
-    background-image: url("https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
+    background-image: url("https://images.unsplash.com/photo-1530947443747-bcaaacd048d0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2901&q=80");
     background-size: cover;
     background-position: bottom center;
     height: 500px;
@@ -64,9 +64,17 @@ body {
     text-align: center;
     padding:50px 50px;
   }
+
+  h2  {
+    color:grey;
+    font-size: 15px;
+    font-weight: 300px;
+    padding: 30px 50px;
+    margin: 0 auto;
+  }
   
   h3 {
-    color: red;
+    color: grey;
     font-size: 26px;
     font-weight: 700;
     padding: 20px 10px;
@@ -103,8 +111,8 @@ body {
   }
   
   .share a {
-    background: red;
-    border: 1px solid red;
+    background: grey;
+    border: 1px solid darkslategrey;
     border-radius: 3px;
     color: white;
     display: inline-block;
@@ -115,6 +123,6 @@ body {
   
   .share a:hover {
     background: whitesmoke;
-    border: 1px solid red;
-    color: red;
+    border: 1px solid darkslategrey;
+    color: grey;
   }
